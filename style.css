@@ -1,0 +1,76 @@
+body {
+	background-color: #232323;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	background-color: steelblue;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1.1;
+	padding: 20px 0;
+	transition: background-color 750ms ease-in-out;
+	--webkit-transition: background-color 750ms ease-in-out;
+	--moz-transition: background-color 750ms ease-in-out;
+}
+
+#displayColor {
+	font-size: 2em;
+}
+
+#stripe {
+	background-color: white;
+	height: 30px;
+	text-align: center;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
+
+button {
+	border: none;
+	background: white;
+	height: 30px;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	transition: all 500ms ease-in-out;
+	--webkit-transition: all 500ms ease-in-out;
+	--moz-transition: all 500ms ease-in-out;
+	outline: none;
+}
+
+button:hover {
+	cursor: pointer;
+	color: white;
+	background-color: steelblue;
+}
+
+.selected {
+	color: white;
+	background-color: steelblue;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.square {
+	width: 30%;
+	background-color: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.6%;
+	border-radius: 20px;
+	transition: background-color 750ms ease-in-out;
+	--webkit-transition: background-color 750ms ease-in-out;
+	--moz-transition: background-color 750ms ease-in-out;
+}
